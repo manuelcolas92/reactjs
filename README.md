@@ -1,11 +1,11 @@
 # Dexter's PetShop!
 ___
 
-### Proyecto E-commerce
+## Proyecto E-commerce
 
 Si bien Dexter's PetShop! es un e-commerce creado como proyecto de un curso de CODERHOUSE, es una App adaptable en un futuro a un e-commerce real.
 
-### Instalación
+## Instalación
 
 Para clonar e instalar el proyecto seguir los siguientes pasos:
 
@@ -21,7 +21,7 @@ npm run dev
 
 Luego Ctrl + Click en el link del server local.
 
-### Estructura
+## Estructura
 
 La App está creada y desarrollada en ReactJS bajo la tecnología de Vite, junto a Firebase como plataforma para almacenar los datos de los productos y las órdenes generadas.
 
@@ -39,7 +39,7 @@ En cuanto a la estructura de archivos, en el repositorio encontramos:
 Dentro de la carpeta **src** se pueden encontrar los diferentes componentes en la carpeta **Components**, la lógica del carrito dentro de **context**, y la carpeta **services** que contiene los datos para vincular al servicio de firebase.
 También tenemos el archivo **App.jsx** y **main.jsx** jnto a sus hojas de estilos, como generadores del DOM.
 
-### Navegación
+## Navegación
 
 Una vez dentro de la App, se puede observar una navbar en la parte superior, la cual contiene:
 - El logo del comercio que nos redirigirá a la sección principal donde se listan los productos
@@ -55,20 +55,21 @@ En la sección Checkout encontramos un formulario en el cuál nos pide los datos
 
 Esta última se añade en la base de datos de Firebase con un ID el cuál se le informa al comprador.
 
-### Estado del proyecto
+## Estado del proyecto
 
 Este proyecto está desarrollado al momento con los requisitos del curso, pero todavía falta el agregado de algunas funcionalidades como:
 
 - La generación de un Dashboard para agregar productos desde la misma App a través de un panel de admin
 - La opción de abonar a través de una plataforma como Mercado Pago
 
-### Demo de la App subida a Vercel
+## Demo de la App subida a Vercel
 
 https://dexterspetshop.vercel.app/
 
-### Personas involucradas
-**Institución:** CODERHOUSE - Curso ReactJS - Comisión 43235
-**Profesor:** Sebastian Zuviria
-**Tutor regular:** Lucia Dias
-**Tutor adjunto:** Andres Nazzari
-**Alumno:** Manuel Colás
+## Personas involucradas
+
+- **Institución:** CODERHOUSE - Curso ReactJS - Comisión 43235
+- **Profesor:** Sebastian Zuviria
+- **Tutor regular:** Lucia Dias
+- **Tutor adjunto:** Andres Nazzari
+- **Alumno:** Manuel Colás
