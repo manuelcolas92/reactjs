@@ -1,0 +1,29 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBar-field {
+    height: 30px;
+    width: 87.8%;
+    font-size: 16px;
+    border: 0px;
+    outline: none;
+    padding: 0 4px 0 4px;
+}
+
+.searchBar-button {
+    height: 30px;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.searchBar-button:hover {
+    color: gray;
+    transition: 0.3s;
+}
+

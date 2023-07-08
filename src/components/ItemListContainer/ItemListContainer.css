@@ -1,0 +1,27 @@
+.greeting-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+    color: #202020;
+}
+
+.greeting {
+    font-size: 50px;
+}
+
+.subGreeting {
+    font-size: 30px;
+}
+
+.cargando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cargando h1{
+    margin: 200px;
+    font-size: 60px;
+}

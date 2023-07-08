@@ -1,0 +1,18 @@
+.cart-widget-ico {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 70px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.cart-widget-link {
+    text-decoration: none;
+}
+
+.cart-widget-ico:hover {
+    color: rgb(142, 216, 31);
+    transition: 0.2s;
+}
