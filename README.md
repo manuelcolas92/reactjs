@@ -11,7 +11,11 @@ Para clonar e instalar el proyecto seguir los siguientes pasos:
 
 ```sh
 git clone https://github.com/manuelcolas92/reactjs
+```
+```sh
 npm install
+```
+```sh
 npm run dev
 ```
 
@@ -22,16 +26,16 @@ Luego Ctrl + Click en el link del server local.
 La App está creada y desarrollada en ReactJS bajo la tecnología de Vite, junto a Firebase como plataforma para almacenar los datos de los productos y las órdenes generadas.
 
 En cuanto a la estructura de archivos, en el repositorio encontramos:
-```sh
-src
-.eslintrc.cjs
-.gitignore
-README.md
-index.html
-package-lock.json
-package.json
-vite.config.js
-```
+
+- src
+- .eslintrc.cjs
+- .gitignore
+- README.md
+- index.html
+- package-lock.json
+- package.json
+- vite.config.js
+
 Dentro de la carpeta **src** se pueden encontrar los diferentes componentes en la carpeta **Components**, la lógica del carrito dentro de **context**, y la carpeta **services** que contiene los datos para vincular al servicio de firebase.
 También tenemos el archivo **App.jsx** y **main.jsx** jnto a sus hojas de estilos, como generadores del DOM.
 
