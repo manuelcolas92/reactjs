@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { CartProvider } from './context/CartContext'
-import NavBar from './components/NavBar/NavBar'
+import Navbar from './components/Navbar/Navbar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import Cart from './components/Cart/Cart'
@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <CartProvider>
-        <NavBar />
+        <Navbar />
         <Routes>
           <Route path="/" element={<ItemListContainer greeting={"Dexter's Petshop"} subGreeting={"Todo para tu gato!"} />} />
           <Route path="/category/:categoryId" element={<ItemListContainer />} />
