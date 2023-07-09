@@ -49,7 +49,6 @@ const ItemListContainer = ({ greeting, subGreeting }) => {
             <div className='greeting-container'>
                 <h1 className='greeting'>{greeting}</h1>
                 <h2 className='subGreeting'>{subGreeting}</h2>
-                <h2>VERSION FINAL</h2>
             </div>
             <div className='item-list-container'>
                 <ItemList products={products} />
